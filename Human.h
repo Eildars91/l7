@@ -28,7 +28,7 @@ public:
 	}
 	virtual void print()
 	{
-		cout << surname << " " << name << " " << midname << " " << age << " ëåò" << endl;
+		cout << surname << " " << name << " " << midname << " " << age << " Ã«Ã¥Ã²" << endl;
 	}
 	~human()
 	{}
@@ -50,11 +50,11 @@ public:
 	}
 	void print() override
 	{
-		cout << "ß " << surname << " " << name << " " << midname << " " << age << " ãîäà è ÿ ñòóäåíò." << endl;
+		cout << "ÃŸ " << surname << " " << name << " " << midname << " " << age << " Ã£Ã®Ã¤Ã  Ã¨ Ã¿ Ã±Ã²Ã³Ã¤Ã¥Ã­Ã²." << endl;
 		if (on_lesson)
-			cout << "ß íà óðîêå." << endl;
+			cout << "ÃŸ Ã­Ã  Ã³Ã°Ã®ÃªÃ¥." << endl;
 		else
-			cout << "ß íå íà óðîêå." << endl;
+			cout << "ÃŸ Ã­Ã¥ Ã­Ã  Ã³Ã°Ã®ÃªÃ¥." << endl;
 	}
 	~student()
 	{
@@ -77,11 +77,11 @@ public:
 	}
 	void print() override
 	{
-		cout << "ß " << surname << " " << name << " " << midname << " " << age << " ãîäà è ÿ íà÷àëüíèê." << endl;
-		cout << "Åñòü " << number_of_workers << " ðàáî÷èõ â ìîåé êîìïàíèè." << endl;
+		cout << "ÃŸ " << surname << " " << name << " " << midname << " " << age << " Ã£Ã®Ã¤Ã  Ã¨ Ã¿ Ã­Ã Ã·Ã Ã«Ã¼Ã­Ã¨Ãª." << endl;
+		cout << "Ã…Ã±Ã²Ã¼ " << number_of_workers << " Ã°Ã Ã¡Ã®Ã·Ã¨Ãµ Ã¢ Ã¬Ã®Ã¥Ã© ÃªÃ®Ã¬Ã¯Ã Ã­Ã¨Ã¨." << endl;
 	}
 	~boss()
 	{
 	}
 };
-#endif#pragma once
+#endif
